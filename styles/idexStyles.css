@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grandPanelka{
+    padding: 2%;
+    background-color: #e2e7ec;
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1120px;
+    height: 1225px;    
+}
+
+.carPanelka{    
+    background-image: linear-gradient( transparent, #000000), url("../img/Layer_8.svg");
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+    flex-direction: column;
+    width: 57%;
+    height: 50%;
+    margin: 5px;        
+}
+
+.firstHeading{
+    margin: 0 30px 30px 30px;
+}
+
+.date_carpanelka{
+    margin: 0 30px 10px 30px;
+    color: #818181;
+}
+
+
+
+.otherPanelka{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 50%;
+    margin: 5px;     
+}
+
+.panelkaBack1{
+    background-image: url("../img/devochka.png");
+    width: 100%;
+    height: 50%;
+}
+
+.panelkaBack2{
+    background-image: url("../img/devochki.png");
+    width: 100%;
+    height: 50%;
+}
+
+.panelkaBack3{
+    background-image: url("../img/toptop.png");
+    width: 100%;
+    height: 50%;
+}
+
+.panelkaBack4{
+    background-image: url("../img/lyapote.png");
+    width: 100%;
+    height: 50%;
+}
+
+.otherPanelka_footer{
+    width: 100%;
+    height: 67%;
+}
+
+.otherPanelka_date{
+    margin: 18px 0 0 25px;
+    color: #818181;
+}
+
+.otherHeading{
+    margin: 10px 0 0 25px;
+}
+
+.foto-Chuvak{
+    margin: 90px 0 0 25px;
+}
+
+.otherHeading_three{
+    margin-top: 49px;
+}
+
+
+
